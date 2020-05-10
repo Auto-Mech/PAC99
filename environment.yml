@@ -1,0 +1,5 @@
+name: pac99-env
+
+dependencies:
+    - cmake
+    - gcc_linux-64
