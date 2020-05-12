@@ -7,6 +7,3 @@ cmake .. -DCMAKE_INSTALL_PREFIX=$PREFIX -DCMAKE_Fortran_COMPILER=$FC -DCMAKE_For
 
 make VERBOSE=1
 make install
-
-mkdir -p $PREFIX/share/pac99
-cp $RECIPE_DIR/new.groups $PREFIX/share/pac99/.
