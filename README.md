@@ -8,8 +8,8 @@ While not strictly required, PAC99 makes use of ThermP output by default. In add
 
 The user may format thermochemical data from some other program to match those in the examples directory. Of course, we encourage the use of ThermP and MESS to calculate the input thermochemical data. 
 
-The source code and installation instructions for ThermP can be found at <https://github.com/Auto-Mech/ThermP>. 
-The source code and installation instructions for MESS can be found at <https://github.com/Auto-Mech/MESS>. 
+The source code and installation instructions for ThermP can be found at <https://github.com/Auto-Mech/ThermP>.  
+The source code and installation instructions for MESS can be found at <https://github.com/Auto-Mech/MESS>.
 
 See below for alternative means of obtaining PAC99 alongside both ThermP and MESS.
 
