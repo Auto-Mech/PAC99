@@ -9,4 +9,4 @@ make VERBOSE=1
 make install
 
 mkdir -p $PREFIX/share/pac99
-cp $RECIPE_DIR/new.groups $PREFIX/share/pac99/.
+cp $RECIPE_DIR/share/new.groups $PREFIX/share/pac99/.
