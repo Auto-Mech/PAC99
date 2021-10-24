@@ -21,7 +21,14 @@ jobs:
               command: |
                   source activate pac99-env
                   . debug/fake-install.sh
-                  cd examples/
+                  cd examples
+                  cd ch4
+                  bash run_pac99.sh
+                  cd ..
+                  cd co
+                  bash run_pac99.sh
+                  cd ..
+                  cd h2
                   bash run_pac99.sh
                   cd ..
 workflows:
