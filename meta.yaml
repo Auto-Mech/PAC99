@@ -1,12 +1,12 @@
-# cmd: conda build .
+# cmd: conda build . -c conda-forge
 package:
     name: pac99
-    version: "1.1.0"
+    version: "1.4.0"
 
 source:
     path: .
 
 requirements:
     build:
-        - cmake
-        - {{ compiler('fortran') }}
+        - conda-forge::cmake=3.20.2
+        - conda-forge::gfortran_linux-64=7.5.0
